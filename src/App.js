@@ -173,7 +173,8 @@ const App = () => {
                 { label: 'Crud', icon: 'pi pi-fw pi-user-edit', to: '/crud' },
                 { label: 'Calendar', icon: 'pi pi-fw pi-calendar-plus', to: '/calendar' },
                 { label: 'Timeline', icon: 'pi pi-fw pi-calendar', to: '/timeline' },
-                { label: 'Empty Page', icon: 'pi pi-fw pi-circle-off', to: '/empty' }
+                { label: 'Empty Page', icon: 'pi pi-fw pi-circle-off', to: '/empty' },
+                { label: 'Adriana', icon: 'pi pi-fw pi-circle-off', to: '/Adriana'}
             ]
         },
         {
@@ -280,7 +281,7 @@ const App = () => {
             <CSSTransition classNames="layout-sidebar" timeout={{ enter: 200, exit: 200 }} in={isSidebarVisible()} unmountOnExit>
                 <div ref={sidebar} className={sidebarClassName} onClick={onSidebarClick}>
                     <div className="layout-logo" style={{cursor: 'pointer'}} onClick={() => history.push('/')}>
-                        <img alt="Logo" src={logo} />
+                        
                     </div>
                     <AppProfile />
                     <AppMenu model={menu} onMenuItemClick={onMenuItemClick} />

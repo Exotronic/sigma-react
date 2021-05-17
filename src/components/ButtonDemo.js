@@ -31,12 +31,12 @@ export const ButtonDemo = () => {
 
                 <div className="card">
                     <h5>Severities</h5>
-                    <Button label="Primary" className="p-mr-2 p-mb-2" />
-                    <Button label="Secondary" className="p-button-secondary p-mr-2 p-mb-2" />
-                    <Button label="Success" className="p-button-success p-mr-2 p-mb-2" />
-                    <Button label="Info" className="p-button-info p-mr-2 p-mb-2" />
-                    <Button label="Warning" className="p-button-warning p-mr-2 p-mb-2" />
-                    <Button label="Danger" className="p-button-danger p-mr-2 p-mb-2" />
+                    <Button label="Adriana" className="p-mr-2 p-mb-2" />
+                    <Button label="Denos" className="p-button-secondary p-mr-2 p-mb-2" />
+                    <Button label="Los" className="p-button-success p-mr-2 p-mb-2" />
+                    <Button label="Putos" className="p-button-info p-mr-2 p-mb-2" />
+                    <Button label="Puntos" className="p-button-warning p-mr-2 p-mb-2" />
+                    <Button label="Please" className="p-button-danger p-mr-2 p-mb-2" />
                 </div>
 
                 <div className="card">
